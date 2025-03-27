@@ -8,6 +8,12 @@ public class Main {
         table.printTable();
         table.editCell(0, 0, "New value");
         table.printTable();
+        table.addColumn();
+        table.printTable();
+        table.addRow();
+        table.printTable();
+        table.editCell(0, 0, "Another value");
+        table.printTable();
 
         Cell cell = new Cell("Hello");
         System.out.println(cell.getValue());
